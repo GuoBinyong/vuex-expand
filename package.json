@@ -4,7 +4,7 @@
   "description": "vuex-expand 对 Vuex 扩展了一些功能",
   "main": "dist/vuex-expand.umd.js",
   "module": "src/index",
-  "types": "types/index.d.ts",
+  "types": "types/index",
   "sideEffects": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -79,6 +79,6 @@
     "webpack-node-externals": "^1.7.2"
   },
   "dependencies": {
-    "vuex": "^3.1.3"
+    "vuex": "^3.0.0"
   }
 }
