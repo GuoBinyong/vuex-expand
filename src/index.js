@@ -5,6 +5,7 @@ import "es-expand"
  * 定义计算属性 keyName ，表示 state 在 localStorage 中的键名 ，当访问 keyName 时，如果 keyName 不存在，则会取默认值 'StoreState'
  */
 Object.defineProperty(Vuex.Store.prototype, 'keyName', {
+  configurable: true,
   get: function () {
     if (!this._keyName) {
       this._keyName = 'StoreState';
