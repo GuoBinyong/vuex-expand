@@ -1,10 +1,9 @@
 {
   "name": "vuex-expand",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "vuex-expand 对 Vuex 扩展了一些功能",
   "main": "dist/vuex-expand.cjs.js",
   "module": "dist/vuex-expand.esm.js",
-  "browser": "dist/vuex-expand.umd.js",
   "types": "types/index",
   "sideEffects": true,
   "repository": {
@@ -50,7 +49,7 @@
     "rollup-plugin-babel": "^4.2.0"
   },
   "dependencies": {
-    "es-expand": "^1.0.11"
+    "es-expand": "^1.0.13"
   },
   "peerDependencies": {
     "vuex": ">=2.0.0"
