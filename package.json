@@ -1,6 +1,6 @@
 {
   "name": "vuex-expand",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "vuex-expand 对 Vuex 扩展了一些功能",
   "main": "dist/vuex-expand.cjs.js",
   "module": "dist/vuex-expand.es.js",
